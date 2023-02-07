@@ -71,13 +71,14 @@ body{
 
 .profiletext h2 span{
 	font-size: 1em;
-	color: #000;
+	color: #fff;
 	font-weight: 300;
 }
 
 .contactinfo{
 	padding-top: 30px;
 	border-bottom: 1px solid rgba(255,255,255,0.2);
+	margin-bottom: 15px;
 }
 
 .title{
