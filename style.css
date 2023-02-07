@@ -71,8 +71,12 @@ body{
 
 .profiletext h2 span{
 	font-size: 1em;
-	color: #000;
+	color: #fff;
 	font-weight: 300;
+}
+
+h2{
+	color: #000;
 }
 
 .contactinfo{
