@@ -118,7 +118,7 @@ body{
 }
 
 .contactinfo.education h5{
-	font-size: 0.7em;
+	font-size: 0.8em;
 	color: #03a9f4;
 	font-weight: 500;
 }
@@ -129,7 +129,7 @@ body{
 }
 
 .contactinfo.education h4{
-	font-size: 0.7em;
+	font-size: 0.9em;
 	color: #fff;
 	font-weight: 300;
 }
@@ -168,7 +168,7 @@ body{
 .about .resume{
 	color: #fff;
 	font-size: 0.8em;
-	text-align: justify;
+	text-align: left;
 }
 
 .about .title3{
