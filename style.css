@@ -198,10 +198,32 @@ p{
 	margin-bottom: 0;
 }
 
-.about .stars i{
-	font-size: 0.9em;
-	display: inline-grid;
-	color: #003147;
-	padding: 5px 0;
-	margin-left: 3px;
+.skillsinfo .title3{
+	border-bottom: 1px solid #ccc;
+}
+
+.skillsinfo .text{
+	position: absolute;
+	left: 20px;
+	font-size: 0.8em;
+}
+
+.skillsinfo .percent{
+	position: relative;
+	top: 5px;
+	left: 50px;
+	width: 30%;
+	height: 6px;
+	margin: 15px;
+	background: #081921;
+	display: block;
+}
+
+.skillsinfo .percent div{
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: #03a9fa;
+	display: flex;
 }
