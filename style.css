@@ -71,6 +71,7 @@ body{
 
 .profiletext h2 span{
 	font-size: 1em;
+	color: #000;
 	font-weight: 300;
 }
 
@@ -160,6 +161,7 @@ body{
 
 .about .title2{
 	text-align: left;
+	color: #000;
 	margin-bottom: 5px;
 	text-transform: uppercase;
 }
