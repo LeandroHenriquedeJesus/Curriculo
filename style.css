@@ -89,7 +89,6 @@ h2{
 	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: 1px;
-	margin-bottom: 10px;
 }
 
 .contactinfo ul{
@@ -116,10 +115,6 @@ h2{
 .contactinfo ul li span{
 	color: #fff;
 	font-weight: 300;
-}
-
-.contactinfo.education li{
-	margin-bottom: 20px;
 }
 
 .contactinfo.education h5{
