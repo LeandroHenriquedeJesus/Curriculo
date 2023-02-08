@@ -139,7 +139,6 @@ h2{
 	height: 6px;
 	background: #081921;
 	display: block;
-	margin-top: 5px;
 }
 
 .contactinfo.language .percent div{
@@ -160,7 +159,6 @@ h2{
 .about .title2{
 	text-align: left;
 	color: #000;
-	margin-bottom: 5px;
 	border-bottom: 1px solid #ccc;
 }
 
@@ -171,7 +169,6 @@ h2{
 
 .about .title3{
 	border-bottom: 1px solid #ccc;
-	margin-bottom: 13px;
 	color: #000;
 }
 
@@ -180,11 +177,8 @@ h2{
 	font-size: 1em;
 }
 
-
 p{
 	font-size: 0.8em;
-	color: #333;
-	margin-bottom: 20px;
 	color: #000;
 }
 
@@ -214,7 +208,6 @@ p{
 	left: 50px;
 	width: 30%;
 	height: 6px;
-	margin: 15px;
 	background: #081921;
 	display: block;
 }
