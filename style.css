@@ -151,6 +151,7 @@ body{
 	background: #fff;
 	padding: 20px;
 	border-radius: 5%;
+	border-bottom: 1px solid #ccc;
 }
 
 .about .title2{
@@ -176,7 +177,6 @@ p{
 	font-size: 0.86em;
 	padding: 5px 0;
 	margin-bottom: 10px;
-	border-bottom: 1px solid #ccc;
 }
 
 .skill-competence{
