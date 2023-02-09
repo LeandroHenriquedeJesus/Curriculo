@@ -125,7 +125,7 @@ body{
 }
 
 .contactinfo.education h4{
-	font-size: 0.8em;
+	font-size: 0.82em;
 	color: #fff;
 	font-weight: 300;
 }
@@ -151,7 +151,6 @@ body{
 	background: #fff;
 	padding: 20px;
 	border-radius: 5%;
-	border-bottom: 1px solid #ccc;
 }
 
 .about .title2{
@@ -184,6 +183,8 @@ p{
 	width: 100%;
 	height: 20%;
 	margin-top: 20px;
+	border-top: 1px solid #ccc;
+	padding-top: 15px;
 }
 
 .skillsinfo-left{
