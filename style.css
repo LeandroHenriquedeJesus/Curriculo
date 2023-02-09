@@ -176,6 +176,7 @@ p{
 	font-size: 0.86em;
 	padding: 5px 0;
 	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
 }
 
 .skill-competence{
