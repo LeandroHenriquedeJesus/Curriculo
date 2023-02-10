@@ -98,7 +98,7 @@ body{
 	cursor: pointer;
 }
 
-.contactinfo .text{
+.contactinfo .text a{
 	font-size: 0.80em;
 	color: #fff;
 }
