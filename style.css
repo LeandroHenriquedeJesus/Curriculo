@@ -195,6 +195,8 @@ p{
 .skillsinfo .title4{
 	font-size: 1.3em;
 	color: #03a9fa;
+	width: 80%;
+	border-bottom: 1px solid #ccc;
 }
 
 .skillsinfo .text{
@@ -244,6 +246,8 @@ p{
 .competenceinfo .title4{
 	font-size: 1.3em;
 	color: #03a9fa;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
 }
 
 .competenceinfo .text{
@@ -256,7 +260,7 @@ p{
 .competenceinfo .percent{
 	position: relative;
 	top: 5px;
-	left: 45%;
+	left: 40%;
 	width: 55%;
 	height: 7px;
 	margin: 15px;
