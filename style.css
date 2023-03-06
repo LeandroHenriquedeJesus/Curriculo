@@ -295,6 +295,7 @@ p{
 	}
 
 	.percent{
+		margin-left: 5px;
 		grid-template-columns: repeat(2,1fr);
 	}
 }
