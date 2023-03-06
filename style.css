@@ -285,7 +285,7 @@ p{
 {
 	.container{
 		margin: 10px;
-		font-size: 0.8em;
+		font-size: 0.7em;
 		grid-template-columns: repeat(1,1fr);
 	}
 
