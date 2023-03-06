@@ -18,7 +18,7 @@ body{
 	border-radius: 10%;
 	position: relative;
 	width: 100%;
-	max-width: 950px;
+	max-width: 960px;
 	min-height: 1000px;
 	margin: 50px;
 	background: #fff;
@@ -80,6 +80,11 @@ body{
 	border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
 .title{
 	color: #fff;
 	text-transform: uppercase;
@@ -99,12 +104,6 @@ body{
 
 .contactinfo .text{
 	font-size: 0.80em;
-	color: #fff;
-}
-
-.contactinfo .text a{
-	color: #fff;
-	text-decoration: none;
 }
 
 .contactinfo ul li .icon{
@@ -155,23 +154,23 @@ body{
 .container .right_side{
 	position: relative;
 	background: #fff;
-	padding: 20px;
+	padding: 15px;
 	border-radius: 5%;
 }
 
 .about .title2{
 	font-size: 1.3em;
 	text-align: left;
-	color: #03a9fa;;
+	color: #03a9fa;
 	margin-top: 45px;
-	border-bottom: 1px solid #ccc;
 }
 
 .about .title3{
 	font-size: 1.3em;
 	color: #03a9fa;
+	padding-top: 15px;
 	margin-bottom: 5px;
-	border-bottom: 1px solid #ccc;
+	border-top: 1px solid gray;
 }
 
 .about h5{
@@ -184,46 +183,43 @@ p{
 	margin-bottom: 10px;
 }
 
-.skill-competence{
+.col-1{
 	position: relative;
-	width: 100%;
-	height: 20%;
-	margin-top: 20px;
-	border-top: 1px solid #ccc;
+	top: 0;
+	height: 20vh;
+	border-top: 1px solid gray;
+}
+
+.skill-competence{
+	position: absolute;
+	width: 45%;
 	padding-top: 15px;
 }
 
-.skillsinfo-left{
-	position: absolute;
-	width: 45%;
-}
-
-.skillsinfo .title4{
+.skill-competence .title4{
 	font-size: 1.3em;
 	color: #03a9fa;
-	width: 80%;
-	border-bottom: 1px solid #ccc;
 }
 
-.skillsinfo .text{
+.skill-competence .text{
 	position: absolute;
 	font-size: 0.8em;
 	color: #000;
 	font-weight: bold;
 }
 
-.skillsinfo .percent{
+.skill-competence .percent{
 	position: relative;
-	top: 5px;
-	left: 60px;
-	width: 55%;
+	top: 3px;
+	left: 20%;
+	width: 50%;
 	height: 7px;
 	margin: 15px;
 	background: #081921;
 	display: block;
 }
 
-.skillsinfo .percent div{
+.skill-competence .percent div{
 	position: relative;
 	top: 0;
 	left: 0;
@@ -232,28 +228,26 @@ p{
 	display: flex;
 }
 
-.divider{
+.col-div{
 	position: absolute;
-	left: 41%;
-}
-
-.divider .line{
+	top: 25px;
+	left: 42%;
+	border: 1px solid gray;
 	width: 1px;
-	height: 10em;
-	background: #ccc;
+	height: 120px;
 }
 
 .contactinfo-right{
 	position: absolute;
-	right: 10%;
-	width: 45%;
+	left: 50%;
+	width: 50%;
+	padding-top: 15px;
+
 }
 
 .competenceinfo .title4{
 	font-size: 1.3em;
 	color: #03a9fa;
-	width: 100%;
-	border-bottom: 1px solid #ccc;
 }
 
 .competenceinfo .text{
@@ -265,9 +259,9 @@ p{
 
 .competenceinfo .percent{
 	position: relative;
-	top: 5px;
-	left: 45%;
-	width: 55%;
+	top: 3px;
+	left: 40%;
+	width: 50%;
 	height: 7px;
 	margin: 15px;
 	background: #081921;
@@ -285,4 +279,22 @@ p{
 
 .about:last-child{
 	margin-bottom: 0;
+}
+
+@media (max-width: 1000px)
+{
+	.container{
+		margin: 10px;
+		font-size: 0.8em;
+		grid-template-columns: repeat(1,1fr);
+	}
+
+	.skill-competence{
+		margin: 0px;
+		grid-template-columns: repeat(2,1fr);
+	}
+
+	.percent{
+		grid-template-columns: repeat(2,1fr);
+	}
 }
