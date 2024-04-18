@@ -263,9 +263,9 @@ p{
 	left: 40%;
 	width: 50%;
 	height: 7px;
-	margin: 15px;
+	margin-left: 15px;
 	background: #081921;
-	display: -nline-block;
+	display: inline-block;
 }
 
 .competenceinfo .percent div{
