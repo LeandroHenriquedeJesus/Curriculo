@@ -275,6 +275,7 @@ p{
 	height: 100%;
 	background: #03a9fa;
 	display: flex;
+	border: 1px solid red;
 }
 
 .about:last-child{
