@@ -11,7 +11,7 @@ body{
 	display: flex;
 	justify-content: safe center;
 	align-items: center;
-	min-height: 100vh;
+	min-height: 100%;
 }
 
 .container{
